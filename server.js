@@ -7,6 +7,6 @@ const app = express();
 app.use(express.static(path.join(__dirname, "static")));
 
 //START SERVER
-app.listen(6000, function () {
+app.listen(7000, function () {
  console.log("Server running");
 });
